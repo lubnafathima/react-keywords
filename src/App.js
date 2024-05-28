@@ -8,9 +8,9 @@ const App = () => {
         <main className="main">
             <h1 className="title">React JS - Keywords Alert</h1>
             <section className="section">
-                {keywords.map(keyword => {
+                {keywords.map((keyword, index) => {
                     return (
-                        <KeywordsCard key={keyword.id} keyword={keyword} />
+                        <KeywordsCard key={index} keyword={keyword} />
                     )
                 })}
             </section>
