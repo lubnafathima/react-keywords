@@ -36,7 +36,7 @@ export const keywords = [
   "Utils",
   "useState()",
   "state variable",
-  "Reconciliation Algorithm(React Fiber)",
+  "Reconciliation (React Fiber)",
   "Diff Algorithm",
   "Virtual DOM",
   "Incremental Rendering",
